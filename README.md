@@ -4,7 +4,7 @@
 1. **Buat Database**
 - Buat database dengan nama `db_rumahsakit_230102083`
 - jalankan query :
-```
+```sql
 CREATE DATABASE db_rumahsakit_230102083;
 USE db_rumahsakit_230102083;
 
@@ -35,7 +35,7 @@ composer update
 cp env .env
 ```
 4. **Konfigurasi .env**
-```
+```ini
 CI_ENVIRONMENT = development
 
 app.baseURL = 'http://localhost:8080/'
