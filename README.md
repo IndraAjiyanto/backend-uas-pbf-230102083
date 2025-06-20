@@ -2,7 +2,7 @@
 ---
 ### 📁 Cara menjalankannya
 1. **Buat Database**
-- Buat database dengan nama db_rumahsakit_230102083
+- Buat database dengan nama `db_rumahsakit_230102083`
 - jalankan query :
 ```
 CREATE DATABASE db_rumahsakit_230102083;
@@ -54,7 +54,7 @@ database.default.port = 3306
 session.driver = 'CodeIgniter\Session\Handlers\FileHandler'
 session.savePath = null
 ```
-4. **Jalankan Comand**
+5. **Jalankan Comand**
 ```
 php spark serve
 ```
